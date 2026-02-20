@@ -1,0 +1,223 @@
+{
+    "filters": [
+        {
+            "fieldName": "Category",
+            "fieldTitle": "Category",
+            "filterType": "Filter",
+            "values": [
+                {
+                    "fieldName": "Laptops",
+                    "fieldTitle": "Laptops",
+                    "numberOfItems": 811,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Cloud Client Computing",
+                    "fieldTitle": "Cloud Client Computing",
+                    "numberOfItems": 67,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Desktops",
+                    "fieldTitle": "Desktops",
+                    "numberOfItems": 515,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Monitors",
+                    "fieldTitle": "Monitors",
+                    "numberOfItems": 123,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Dell-Branded Peripherals",
+                    "fieldTitle": "Dell-Branded Peripherals",
+                    "numberOfItems": 15,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Networking",
+                    "fieldTitle": "Networking",
+                    "numberOfItems": 38,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Servers & Storage",
+                    "fieldTitle": "Servers & Storage",
+                    "numberOfItems": 89,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Workstations",
+                    "fieldTitle": "Workstations",
+                    "numberOfItems": 254,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Storage, Drives & Media",
+                    "fieldTitle": "Storage, Drives & Media",
+                    "numberOfItems": 303,
+                    "selected": false
+                },
+                {
+                    "fieldName": "PC Accessories",
+                    "fieldTitle": "PC Accessories",
+                    "numberOfItems": 170,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Printers, Ink & Toner",
+                    "fieldTitle": "Printers, Ink & Toner",
+                    "numberOfItems": 214,
+                    "selected": false
+                },
+                {
+                    "fieldName": "WiFi and Networking",
+                    "fieldTitle": "WiFi and Networking",
+                    "numberOfItems": 170,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Power, Cooling & Data Center Infrastructure",
+                    "fieldTitle": "Power, Cooling & Data Center Infrastructure",
+                    "numberOfItems": 3,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Laptop Bags and Cases",
+                    "fieldTitle": "Laptop Bags and Cases",
+                    "numberOfItems": 40,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Projectors & Projector Accessories",
+                    "fieldTitle": "Projectors & Projector Accessories",
+                    "numberOfItems": 10,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Projector & Projector Accessories",
+                    "fieldTitle": "Projector & Projector Accessories",
+                    "numberOfItems": 5,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Parts, Batteries & Upgrades",
+                    "fieldTitle": "Parts, Batteries & Upgrades",
+                    "numberOfItems": 9,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Memory",
+                    "fieldTitle": "Memory",
+                    "numberOfItems": 53,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Parts & Upgrades",
+                    "fieldTitle": "Parts & Upgrades",
+                    "numberOfItems": 4,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Batteries & Adapters",
+                    "fieldTitle": "Batteries & Adapters",
+                    "numberOfItems": 2,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Docks and Stands",
+                    "fieldTitle": "Docks and Stands",
+                    "numberOfItems": 1,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Monitors & Monitor Accessories",
+                    "fieldTitle": "Monitors & Monitor Accessories",
+                    "numberOfItems": 5,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Carrying Cases",
+                    "fieldTitle": "Carrying Cases",
+                    "numberOfItems": 20,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Gaming & Gaming Accessories",
+                    "fieldTitle": "Gaming & Gaming Accessories",
+                    "numberOfItems": 1,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Audio",
+                    "fieldTitle": "Audio",
+                    "numberOfItems": 5,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Docks",
+                    "fieldTitle": "Docks",
+                    "numberOfItems": 1,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Home Theater",
+                    "fieldTitle": "Home Theater",
+                    "numberOfItems": 3,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Handhelds & Tablet PCs",
+                    "fieldTitle": "Handhelds & Tablet PCs",
+                    "numberOfItems": 21,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Software",
+                    "fieldTitle": "Software",
+                    "numberOfItems": 65,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Service, Fees, Training & Certification",
+                    "fieldTitle": "Service, Fees, Training & Certification",
+                    "numberOfItems": 1077,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "fieldName": "Status",
+            "fieldTitle": "Status",
+            "filterType": "Filter",
+            "values": [
+                {
+                    "fieldName": "Inactive",
+                    "fieldTitle": "Inactive",
+                    "numberOfItems": 2482,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Active",
+                    "fieldTitle": "Active",
+                    "numberOfItems": 1613,
+                    "selected": false
+                },
+                {
+                    "fieldName": "New",
+                    "fieldTitle": "New",
+                    "numberOfItems": 4,
+                    "selected": false
+                },
+                {
+                    "fieldName": "Reactivated",
+                    "fieldTitle": "Reactivated",
+                    "numberOfItems": 0,
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    "anyFilterMatch": false
+}

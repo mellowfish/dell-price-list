@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell SPL Lookup</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, sans-serif; max-width: 1200px; margin: 40px auto; padding: 0 20px; color: #333; }
+        h1 { margin-bottom: 20px; }
+
+        form { display: flex; gap: 10px; margin-bottom: 20px; }
+        input[type="text"] { flex: 1; padding: 10px; font-size: 16px; border: 2px solid #ccc; border-radius: 6px; }
+        input[type="text"]:focus { outline: none; border-color: #0076ce; }
+        button { padding: 10px 24px; font-size: 16px; background: #0076ce; color: white; border: none; border-radius: 6px; cursor: pointer; }
+        button:hover { background: #005ea5; }
+
+        .error { color: #c0392b; margin-bottom: 20px; }
+        .result-count { color: #666; margin-bottom: 15px; font-size: 14px; }
+
+        table { width: 100%; border-collapse: collapse; font-size: 14px; }
+        th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e0e0e0; }
+        th { background: #f5f5f5; font-weight: 600; position: sticky; top: 0; }
+        tr:hover td { background: #f0f7ff; }
+
+        .status-active { color: #198754; font-weight: 500; }
+        .status-inactive { color: #999; }
+        .price { white-space: nowrap; }
+        .specs { font-size: 12px; color: #666; }
+
+        a { color: #0076ce; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .no-results { color: #888; font-style: italic; }
+    </style>
+</head>
+<body>
+    <h1>Dell Standard Price List Lookup</h1>
+
+    <form method="POST" action="/search">
+        <input type="text" name="query" placeholder="Search by product name, SKU, model (e.g. latitude, 210-BGDU, optiplex)..." value="{{ query or '' }}">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if results is defined and results %}
+        <p class="result-count">Showing {{ results|length }} of {{ total }} results for "{{ query }}"</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>SKU</th>
+                    <th>VPN</th>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Status</th>
+                    <th>MSRP</th>
+                    <th>Key Specs</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in results %}
+                <tr>
+                    <td><a href="/product/{{ item.order_code }}">{{ item.sku }}</a></td>
+                    <td><a href="/product/{{ item.order_code }}">{{ item.vpn }}</a></td>
+                    <td>
+                        <a href="/product/{{ item.order_code }}"><strong>{{ item.brand }}</strong></a><br>
+                        <span class="specs">{{ item.description }}</span>
+                    </td>
+                    <td>{{ item.category }}</td>
+                    <td class="{{ 'status-active' if item.status == 'Active' else 'status-inactive' }}">
+                        {{ item.status }}
+                    </td>
+                    <td class="price">{{ item.msrp }}</td>
+                    <td class="specs">
+                        {% if item.processor %}CPU: {{ item.processor }}<br>{% endif %}
+                        {% if item.memory %}RAM: {{ item.memory }}<br>{% endif %}
+                        {% if item.storage %}Storage: {{ item.storage }}{% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% elif results is defined and not results %}
+        <p class="no-results">No results found for "{{ query }}".</p>
+    {% endif %}
+</body>
+</html>

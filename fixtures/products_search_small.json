@@ -1,0 +1,2699 @@
+{
+    "productListData": {
+        "page": {
+            "pageNumber": 0,
+            "itemsPerPage": 10,
+            "totalItems": 4099
+        },
+        "sortByOptions": [
+            {
+                "fieldName": "Product.Categories.CategoryName",
+                "title": "Category (Ascending)",
+                "order": 1,
+                "selected": false
+            },
+            {
+                "fieldName": "Product.Categories.CategoryName",
+                "title": "Category (Descending)",
+                "order": -1,
+                "selected": false
+            },
+            {
+                "fieldName": "Product.SplProductName",
+                "title": "Product Name (Ascending)",
+                "order": 1,
+                "selected": false
+            },
+            {
+                "fieldName": "Product.SplProductName",
+                "title": "Product Name (Descending)",
+                "order": -1,
+                "selected": false
+            },
+            {
+                "fieldName": "Product.VPN",
+                "title": "VPN (Ascending)",
+                "order": 1,
+                "selected": false
+            },
+            {
+                "fieldName": "Product.VPN",
+                "title": "VPN (Descending)",
+                "order": -1,
+                "selected": false
+            }
+        ],
+        "products": [
+            {
+                "productId": "btphkkpi3535_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "btphkkpi3535_spl",
+                "brand": "Dell Inspiron",
+                "brandId": 7,
+                "isCarWashBrand": false,
+                "family": "Inspiron 15",
+                "fgaType": "BTP",
+                "modelId": "3535",
+                "baseSkuClass": "LH356",
+                "chassis": "16880",
+                "pricingChange": 0,
+                "eolDate": "2025-04-18T07:15:06.208Z",
+                "manufacturerPartNumber": "",
+                "title": "Inspiron 15",
+                "description": "Inspiron 15|RYZ_7-7730U|16GB (2DIMMS)|512GB SS|AMD RAD NA|FHD|NT|1920X1080|8821|W11|3C|BLACK|15.6in",
+                "status": "Inactive",
+                "approvedStatus": "Inactive",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "2500_1522/US/BTP"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "512 GB, M.2, PCIe NVMe, SSD"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Base",
+                                    "value": "Inspiron 15 3535"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "16 GB: 2 x 8 GB, DDR4, 3200 MT/s"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "3 Cell, 41 Wh, integrated"
+                                },
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "AMD Ryzen\u2122 7 7730U (8 cores, up to 4.5 GHz Max Boost Clock)"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Documentation, English/French"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "AMD Radeon\u2122 Graphics"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Realtek Wi-Fi 5 RTL8821CE, 1x1, 802.11ac, MU-MIMO, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Packaging Label",
+                                    "value": "Retail Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_725",
+                                    "title": "Retail Information",
+                                    "value": "Return Label"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Additional Software - US/CA"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro, English, French, Spanish"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "E-Star",
+                                    "value": "Energy Star Label"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Cable",
+                                    "value": "US Power Cord"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65 Watt AC adapter"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Driver",
+                                    "value": "Realtek 8821 Wireless Driver"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "System Driver"
+                                },
+                                {
+                                    "key": "m_380",
+                                    "title": "Color",
+                                    "value": "Carbon Black"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "Shipping Material"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "English US backlit keyboard"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Carbon Black Palmrest Without Fingerprint Reader"
+                                },
+                                {
+                                    "key": "m_750",
+                                    "title": "Labels",
+                                    "value": "English Palmrest Label"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security solutions",
+                                    "value": "No anti-virus software"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "41"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "1 USB 3.2 Gen 1 Type-A port<br />1 USB 3.2 Gen 1 Type-C port (data only)<br />1 USB 2.0 port<br />1 Headset jack<a class=\"technote microcontent\" rel=\"technotes:headset-jack-model-config\">*</a><br />1 HDMI 1.4* port<br />*The maximum resolution supported over HDMI is 1920x1080 @60Hz. No 4K2K output"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 SD 3.0 card slot"
+                                },
+                                {
+                                    "key": "m_reg_info",
+                                    "title": "RegulatoryInformation",
+                                    "value": "Energy Star 8.0 (Windows OS only)<br>EPEAT Silver (Windows OS only)"
+                                },
+                                {
+                                    "key": "m_reg_notes",
+                                    "title": "RegulatoryNotes",
+                                    "value": "/ItemV2/Details?collectionid=afd101da-cde6-45f1-b48a-595efcefa769&id=e95a0f10-91ee-4059-9629-8b2bb8095725&key=reg@inspiron-15-3535-laptop&profile=en"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "LH356"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "16880"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 Graphics|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 7 7730U (8 cores, up to 4.5 GHz Max Boost Clock)|16 GB: 2 x 8 GB, DDR4, 3200 MT/s|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 928.38,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BGDU",
+                "vpn": "36N23",
+                "upc": "884116482505",
+                "ean": "",
+                "jan": "",
+                "variantCode": "inspiron-15-3535-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Laptops",
+                        "categoryId": "2"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 Graphics|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 7 7730U (8 cores, up to 4.5 GHz Max Boost Clock)|16 GB: 2 x 8 GB, DDR4, 3200 MT/s|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HKKP",
+                "isValid": true,
+                "modelDescription": "Inspiron 15"
+            },
+            {
+                "productId": "btphkkqi3535_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "btphkkqi3535_spl",
+                "brand": "Dell Inspiron",
+                "brandId": 7,
+                "isCarWashBrand": false,
+                "family": "Inspiron 15",
+                "fgaType": "BTP",
+                "modelId": "3535",
+                "baseSkuClass": "LH356",
+                "chassis": "16880",
+                "pricingChange": 0,
+                "eolDate": "2025-04-18T07:15:06.208Z",
+                "manufacturerPartNumber": "",
+                "title": "Inspiron 15",
+                "description": "Inspiron 15|RYZ_5-7530U|16GB (2DIMMS)|512GB SS|AMD RAD NA|FHD|NT|1920X1080|8821|W11|3C|BLACK|15.6in",
+                "status": "Inactive",
+                "approvedStatus": "Inactive",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "2401_1008/US/BTP"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "512 GB, M.2, PCIe NVMe, SSD"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Base",
+                                    "value": "Inspiron 15 3535"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "16 GB: 2 x 8 GB, DDR4, 3200 MT/s"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "3 Cell, 41 Wh, integrated"
+                                },
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "AMD Ryzen\u2122 5 7530U (6 cores, up to 4.5 GHz Max Boost Clock)"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Documentation, English/French"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "AMD Radeon\u2122 Graphics"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Realtek Wi-Fi 5 RTL8821CE, 1x1, 802.11ac, MU-MIMO, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Packaging Label",
+                                    "value": "Retail Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_725",
+                                    "title": "Retail Information",
+                                    "value": "Return Label"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Additional Software - US/CA"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro, English, French, Spanish"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "E-Star",
+                                    "value": "Energy Star Label"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Cable",
+                                    "value": "US Power Cord"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65 Watt AC adapter"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Driver",
+                                    "value": "Realtek 8821 Wireless Driver"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "System Driver"
+                                },
+                                {
+                                    "key": "m_380",
+                                    "title": "Color",
+                                    "value": "Carbon Black"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "Shipping Material"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "English US backlit keyboard"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Carbon Black Palmrest Without Fingerprint Reader"
+                                },
+                                {
+                                    "key": "m_750",
+                                    "title": "Labels",
+                                    "value": "English Palmrest Label"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security solutions",
+                                    "value": "No anti-virus software"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "41"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "1 USB 3.2 Gen 1 Type-A port<br />1 USB 3.2 Gen 1 Type-C port (data only)<br />1 USB 2.0 port<br />1 Headset jack<a class=\"technote microcontent\" rel=\"technotes:headset-jack-model-config\">*</a><br />1 HDMI 1.4* port<br />*The maximum resolution supported over HDMI is 1920x1080 @60Hz. No 4K2K output"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 SD 3.0 card slot"
+                                },
+                                {
+                                    "key": "m_reg_info",
+                                    "title": "RegulatoryInformation",
+                                    "value": "Energy Star 8.0 (Windows OS only)<br>EPEAT Silver (Windows OS only)"
+                                },
+                                {
+                                    "key": "m_reg_notes",
+                                    "title": "RegulatoryNotes",
+                                    "value": "/ItemV2/Details?collectionid=afd101da-cde6-45f1-b48a-595efcefa769&id=e95a0f10-91ee-4059-9629-8b2bb8095725&key=reg@inspiron-15-3535-laptop&profile=en"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "LH356"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "16880"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 Graphics|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 5 7530U (6 cores, up to 4.5 GHz Max Boost Clock)|16 GB: 2 x 8 GB, DDR4, 3200 MT/s|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 828.38,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BGDU",
+                "vpn": "F3WX2",
+                "upc": "884116482512",
+                "ean": "",
+                "jan": "",
+                "variantCode": "inspiron-15-3535-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Laptops",
+                        "categoryId": "2"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 Graphics|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 5 7530U (6 cores, up to 4.5 GHz Max Boost Clock)|16 GB: 2 x 8 GB, DDR4, 3200 MT/s|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HKKQ",
+                "isValid": true,
+                "modelDescription": "Inspiron 15"
+            },
+            {
+                "productId": "btphkkri3535_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "btphkkri3535_spl",
+                "brand": "Dell Inspiron",
+                "brandId": 7,
+                "isCarWashBrand": false,
+                "family": "Inspiron 15",
+                "fgaType": "BTP",
+                "modelId": "3535",
+                "baseSkuClass": "LH353",
+                "chassis": "16880",
+                "pricingChange": 0,
+                "eolDate": "2025-04-18T07:15:06.208Z",
+                "manufacturerPartNumber": "",
+                "title": "Inspiron 15",
+                "description": "Inspiron 15|RYZ_5-7520U|8GB (-1DIMMS)|512GB SS|AMD RAD NA|FHD|NT|1920X1080|8821|W11|3C|BLACK|15.6in",
+                "status": "Inactive",
+                "approvedStatus": "Inactive",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "2500_1002/US/BTP"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "512 GB, M.2, PCIe NVMe, SSD"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Base",
+                                    "value": "Inspiron 15 3535"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "8 GB: LPDDR5, 5500 MT/s (onboard)"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "3 Cell, 41 Wh, integrated"
+                                },
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "AMD Ryzen\u2122 5 7520U Processors with Radeon\u2122 610M"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Documentation, English/French"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "AMD Radeon\u2122 610M"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Realtek Wi-Fi 5 RTL8821CE, 1x1, 802.11ac, MU-MIMO, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Packaging Label",
+                                    "value": "Retail Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_725",
+                                    "title": "Retail Information",
+                                    "value": "Return Label"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Additional Software - US/CA"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro, English, French, Spanish"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "E-Star",
+                                    "value": "Energy Star Label"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Cable",
+                                    "value": "US Power Cord"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65 Watt AC adapter"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Driver",
+                                    "value": "Realtek 8821 Wireless Driver"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "System Driver"
+                                },
+                                {
+                                    "key": "m_380",
+                                    "title": "Color",
+                                    "value": "Carbon Black"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "Shipping Material"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "English US non-backlit keyboard"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Carbon Black Palmrest Without Fingerprint Reader"
+                                },
+                                {
+                                    "key": "m_750",
+                                    "title": "Labels",
+                                    "value": "English Palmrest Label"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security solutions",
+                                    "value": "No anti-virus software"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "41"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "1 USB 3.2 Gen 1 Type-A port<br />1 USB 3.2 Gen 1 Type-C port (data only)<br />1 USB 2.0 port<br />1 Headset jack<a class=\"technote microcontent\" rel=\"technotes:headset-jack-model-config\">*</a><br />1 HDMI 1.4* port<br />*The maximum resolution supported over HDMI is 1920x1080 @60Hz. No 4K2K output"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 SD 3.0 card slot"
+                                },
+                                {
+                                    "key": "m_reg_info",
+                                    "title": "RegulatoryInformation",
+                                    "value": "Energy Star 8.0 (Windows OS only)<br>EPEAT Silver (Windows OS only)"
+                                },
+                                {
+                                    "key": "m_reg_notes",
+                                    "title": "RegulatoryNotes",
+                                    "value": "/ItemV2/Details?collectionid=afd101da-cde6-45f1-b48a-595efcefa769&id=e95a0f10-91ee-4059-9629-8b2bb8095725&key=reg@inspiron-15-3535-laptop&profile=en"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "LH353"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "16880"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 610M|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 5 7520U Processors with Radeon\u2122 610M|8 GB: LPDDR5, 5500 MT/s (onboard)|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 711.99,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BGDQ",
+                "vpn": "MDPKH",
+                "upc": "884116482529",
+                "ean": "",
+                "jan": "",
+                "variantCode": "inspiron-15-3535-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Laptops",
+                        "categoryId": "2"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Inspiron 15 3535|512 GB, M.2, PCIe NVMe, SSD|US Power Cord|AMD Radeon\u2122 610M|Windows 11 Pro, English, French, Spanish|AMD Ryzen\u2122 5 7520U Processors with Radeon\u2122 610M|8 GB: LPDDR5, 5500 MT/s (onboard)|15.6\", Non-Touch, FHD 1920x1080, 120Hz, WVA, IPS, Anti-Glare, 250 nit, Narrow Border, LED-Backlit|1Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HKKR",
+                "isValid": true,
+                "modelDescription": "Inspiron 15"
+            },
+            {
+                "productId": "bts001c3120csus_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001c3120csus_spl",
+                "brand": "Chromebook",
+                "brandId": 1177,
+                "isCarWashBrand": false,
+                "family": "Chromebook 3120",
+                "fgaType": "BTS",
+                "modelId": "3120",
+                "baseSkuClass": "P/017",
+                "chassis": "18403",
+                "pricingChange": 0,
+                "manufacturerPartNumber": "",
+                "title": "Chromebook 3120",
+                "description": "Chromebook 3120|N100|4GB (1DIMM)|64GB EMMC|11.6\"HD+NT|1366x768|3C|65W\n\n\n",
+                "status": "Active",
+                "approvedStatus": "Active",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_1",
+                                    "title": "Chromebook 3120",
+                                    "value": "Dell Chromebook 3120"
+                                },
+                                {
+                                    "key": "m_149",
+                                    "title": "Base Options",
+                                    "value": "Intel(R) Processor N100(6MB cache,4 cores,4 threads,up to 3.40 GHz Turbo,4.80W),4GB Memory,64GB EMMC"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "4 GB: LPDDR5, 4800 MT/s (onboard)"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Hard Drive",
+                                    "value": "64 GB eMMC, on-board"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "LCD",
+                                    "value": "11.6\", Non-Touch, HD, Anti-Glare, HD RGB Cam, mic"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "Single Pointing Non Backlit, US English"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6 AX203, 2x2, 802.11ax, MU-MIMO, Bluetooth\u00ae 5.2 wireless card"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "3 Cell, 42Whr"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65W AC adapter, USB Type-C"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "E4 Power Cord 1M for US"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quickstart Guide"
+                                },
+                                {
+                                    "key": "m_376",
+                                    "title": "Back Cover",
+                                    "value": "LCD, Clamshell, Non-Touch, RGB"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Safety/Environment and Regulatory Guide (English/French Multi-language)"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "3120_ADL_1HFY25_001_CS/US/BTS"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Laptop, RGB Camera, 1 Mic, 1 USBC, NonTouch"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "System Shipment, Chromebook 3120"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Branding",
+                                    "value": "Intel Process N100/N200 CPU Label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "Smart Selection Shipment, Chromebook (VS)"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Packaging Label",
+                                    "value": "POD Label, 100% tie to L10 BTS & BTP"
+                                },
+                                {
+                                    "key": "m_114",
+                                    "title": "Mobile Broadband",
+                                    "value": "No Mobile Broadband Card"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Bottom Door WLAN"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Palmrest for Clamshell"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "1Y Mail In Service-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "42"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "2 USB 3.2 Gen 1 (5 Gbps) Type-C<sup>\u00ae</sup> with DisplayPort Alt Mode ports<a class=\"technote microcontent\" rel=\"technotes:optional-single\">*</a><br>1 USB 3.2 Gen 1 (5 Gbps) port <br>1 headset (headphone and microphone combo) port"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 wedge-shaped lock slot"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "P/017"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18403"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Chromebook 3120|64 GB eMMC, on-board|E4 Power Cord 1M for US|Bottom Door WLAN|4 GB: LPDDR5, 4800 MT/s (onboard)|11.6\", Non-Touch, HD, Anti-Glare, HD RGB Cam, mic|1Y Mail In Service-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 509.68,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BLHG",
+                "vpn": "51R7C",
+                "upc": "884116481591",
+                "ean": "",
+                "jan": "",
+                "variantCode": "chromebook-11-3120-2-in-1-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Cloud Client Computing",
+                        "categoryId": "104"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Chromebook 3120|64 GB eMMC, on-board|E4 Power Cord 1M for US|Bottom Door WLAN|4 GB: LPDDR5, 4800 MT/s (onboard)|11.6\", Non-Touch, HD, Anti-Glare, HD RGB Cam, mic|1Y Mail In Service-Disti SnS",
+                "itemSkuInfo": "998-HGST",
+                "isValid": true,
+                "modelDescription": "Dell Chromebook 3120"
+            },
+            {
+                "productId": "BTS001D_QC24251_TC_US_SPL",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001d_qc24251_tc_us_spl",
+                "brand": "Dell Pro Desktops",
+                "brandId": 1335,
+                "isCarWashBrand": false,
+                "family": "Dell Pro 24 All-in-One (35W) QC24251",
+                "fgaType": "BTS",
+                "modelId": "QC24251",
+                "baseSkuClass": "T%039",
+                "chassis": "18883",
+                "pricingChange": 0,
+                "manufacturerPartNumber": "",
+                "title": "Dell Pro 24 All-in-One (35W) QC24251",
+                "description": "Thin Client QC24251 | 300T | 8GB | 256GB | WLAN | No Touch | FHD | Fixed Stand",
+                "status": "Active",
+                "approvedStatus": "Active",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "Intel\u00ae 300T (2 cores, up to 3.4GHz)"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Dell ThinOS 10"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "256 GB SSD, TLC"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "Integrated Graphics"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Wireless Driver",
+                                    "value": "Wireless Driver, Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae"
+                                },
+                                {
+                                    "key": "m_85",
+                                    "title": "Operating System Language Pack",
+                                    "value": "No Factory Install Language Software"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "E4 130W 7.4mm V3, LiteOn"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "Dell Pro Keyboard and Mouse - KM5221W - US English - Black"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "Mouse included with Keyboard"
+                                },
+                                {
+                                    "key": "m_592",
+                                    "title": "Cables and Dongles",
+                                    "value": "No Additional Cable"
+                                },
+                                {
+                                    "key": "m_558",
+                                    "title": "Stands and Mounts",
+                                    "value": "Fixed Stand for Dell Pro 24 All-in-One 35W/65W, Dark Grey"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "No Additional Software"
+                                },
+                                {
+                                    "key": "m_200013",
+                                    "title": "Operating System Recovery Options",
+                                    "value": "OS-Windows Media Not Included"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "ENERGY STAR",
+                                    "value": "Not ENERGY STAR Qualified"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "US Power Cord for 3-pin Adapter"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation",
+                                    "value": "Documentation"
+                                },
+                                {
+                                    "key": "m_39",
+                                    "title": "System Monitoring Options",
+                                    "value": "System Monitoring not selected in this configuration"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quick Start Guide"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "EAN/UPC Labels",
+                                    "value": "Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_297",
+                                    "title": "TPM Security",
+                                    "value": "Trusted Platform Module (Discrete TPM Enabled)"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Shipping Material",
+                                    "value": "Package for Fixed/ HAS/ no stand (DAO)"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label, Dell Pro 24 All-in-One QC24251, 35W N-1, 130W ADPT, FSJ"
+                                },
+                                {
+                                    "key": "m_707",
+                                    "title": "Intel Responsiveness Technologies",
+                                    "value": "iRST not selected"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Label",
+                                    "value": "Intel Processor 300/300T CPU label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "DT BTS/BTP Shipment"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "QC24251_RPL_001D/US/BTS"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Dell Pro 24 All-in-One (35W) QC24251",
+                                    "value": "Dell Pro 24 All-in-One QC24251 35W TC"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "23.8\", Non-Touch, FHD, 100Hz"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "No vPro support"
+                                },
+                                {
+                                    "key": "m_200331",
+                                    "title": "EPEAT",
+                                    "value": "Not EPEAT Registered"
+                                },
+                                {
+                                    "key": "m_291",
+                                    "title": "Windows AutoPilot",
+                                    "value": "No AutoPilot"
+                                },
+                                {
+                                    "key": "m_97",
+                                    "title": "TAA",
+                                    "value": "No Federal Order"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "No Productivity Software"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security: Identity and Anti-Virus",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "<strong>Right:</strong><br>1 USB 3.2 Gen 2 (10 Gbps) port with PowerShare</p><p></p><p><strong>Left:</strong><br>1 Global headset jack</p><p><strong>Below Display:</strong><br>1 USB 3.2 Gen 2 (10 Gbps) Type-C\u00ae port</p><p><strong>Back panel:</strong><br>2 USB 3.2 Gen 1 (5 Gbps) ports<br>2 USB 2.0 ports with SmartPower On<br>1 DisplayPort++ 1.4a/HDCP 2.3 port<br>RJ45 Ethernet Port (1 Gbps)<br><br>"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "<strong>Slots [SLTS] \u00a0Energy Efficient (35W):</strong><br>\u00a01 M.2 2230 slot for Wi-Fi and Bluetooth combo card<br>\u00a01 M.2 2230/2280 slot for solid-state drive<br>\u00a01 SD-card slot<br>\u00a01 security-cable slot (3 mm x 7 mm, T-Bar design)"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "T%039"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18883"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Pro 24 All-in-One QC24251 35W TC|256 GB SSD, TLC|US Power Cord for 3-pin Adapter|Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera|Integrated Graphics|Dell ThinOS 10|Intel\u00ae 300T (2 cores, up to 3.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|23.8\", Non-Touch, FHD, 100Hz|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 1532.08,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BPPP",
+                "vpn": "FT0Y5",
+                "upc": "884116473220",
+                "ean": "",
+                "jan": "",
+                "variantCode": "dell-pro-qc24251-aio",
+                "categories": [
+                    {
+                        "categoryName": "Desktops",
+                        "categoryId": "1"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Pro 24 All-in-One QC24251 35W TC|256 GB SSD, TLC|US Power Cord for 3-pin Adapter|Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera|Integrated Graphics|Dell ThinOS 10|Intel\u00ae 300T (2 cores, up to 3.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|23.8\", Non-Touch, FHD, 100Hz|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HLKD",
+                "isValid": true,
+                "modelDescription": "Dell Pro 24 All-in-One (35W) QC24251"
+            },
+            {
+                "productId": "BTS001D_QC24251_US_SPL",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001d_qc24251_us_spl",
+                "brand": "Dell Pro Desktops",
+                "brandId": 1335,
+                "isCarWashBrand": false,
+                "family": "Dell Pro 24 All-in-One (35W) QC24251",
+                "fgaType": "BTS",
+                "modelId": "QC24251",
+                "baseSkuClass": "T%037",
+                "chassis": "18883",
+                "pricingChange": 0,
+                "eolDate": "2025-12-18T15:01:49.998Z",
+                "manufacturerPartNumber": "",
+                "title": "Dell Pro 24 All-in-One (35W) QC24251",
+                "description": "QC24251 | i3 14100T | 8GB | 256GB | WLAN | No Touch | FHD | Fixed Stand",
+                "status": "Inactive",
+                "approvedStatus": "Inactive",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "256 GB SSD, TLC"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "Integrated Graphics"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Wireless Driver",
+                                    "value": "Wireless Driver, Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae"
+                                },
+                                {
+                                    "key": "m_85",
+                                    "title": "Operating System Language Pack",
+                                    "value": "English, French, Spanish, Brazilian Portuguese"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "E4 130W 7.4mm V3, LiteOn"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "Dell Pro Keyboard and Mouse - KM5221W - US English - Black"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "Mouse included with Keyboard"
+                                },
+                                {
+                                    "key": "m_592",
+                                    "title": "Cables and Dongles",
+                                    "value": "No Additional Cable"
+                                },
+                                {
+                                    "key": "m_558",
+                                    "title": "Stands and Mounts",
+                                    "value": "Fixed Stand for Dell Pro 24 All-in-One 35W/65W, Dark Grey"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Dell Pro 24 All-in-One (35W) QC24251"
+                                },
+                                {
+                                    "key": "m_200013",
+                                    "title": "Operating System Recovery Options",
+                                    "value": "OS-Windows Media Not Included"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "ENERGY STAR",
+                                    "value": "ENERGY STAR Qualified"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "US Power Cord for 3-pin Adapter"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation",
+                                    "value": "Documentation"
+                                },
+                                {
+                                    "key": "m_39",
+                                    "title": "System Monitoring Options",
+                                    "value": "Watch Dog SRV"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quick Start Guide"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "EAN/UPC Labels",
+                                    "value": "Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_297",
+                                    "title": "TPM Security",
+                                    "value": "Trusted Platform Module (Discrete TPM Enabled)"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Shipping Material",
+                                    "value": "Package for Fixed/ HAS/ no stand (DAO)"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label, Dell Pro 24 All-in-One QC24251, 35W N-1, 130W ADPT, FSJ"
+                                },
+                                {
+                                    "key": "m_707",
+                                    "title": "Intel Responsiveness Technologies",
+                                    "value": "Intel IRST Driver"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Label",
+                                    "value": "Intel\u00ae Core\u2122 i3 Processor Label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "DT BTS/BTP Shipment"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "QC24251_RPL-R_001D/US/BTS"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Dell Pro 24 All-in-One (35W) QC24251",
+                                    "value": "Dell Pro 24 All-in-One QC24251 35W"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "23.8\", Non-Touch, FHD, 100Hz"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "No vPro support"
+                                },
+                                {
+                                    "key": "m_200331",
+                                    "title": "EPEAT",
+                                    "value": "EPEAT Silver with Climate+"
+                                },
+                                {
+                                    "key": "m_291",
+                                    "title": "Windows AutoPilot",
+                                    "value": "No AutoPilot"
+                                },
+                                {
+                                    "key": "m_97",
+                                    "title": "TAA",
+                                    "value": "No Federal Order"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security solutions",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "<strong>Right:</strong><br>1 USB 3.2 Gen 2 (10 Gbps) port with PowerShare</p><p></p><p><strong>Left:</strong><br>1 Global headset jack</p><p><strong>Below Display:</strong><br>1 USB 3.2 Gen 2 (10 Gbps) Type-C\u00ae port</p><p><strong>Back panel:</strong><br>2 USB 3.2 Gen 1 (5 Gbps) ports<br>2 USB 2.0 ports with SmartPower On<br>1 DisplayPort++ 1.4a/HDCP 2.3 port<br>RJ45 Ethernet Port (1 Gbps)<br><br>"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "<strong>Slots [SLTS] \u00a0Energy Efficient (35W):</strong><br>\u00a01 M.2 2230 slot for Wi-Fi and Bluetooth combo card<br>\u00a01 M.2 2230/2280 slot for solid-state drive<br>\u00a01 SD-card slot<br>\u00a01 security-cable slot (3 mm x 7 mm, T-Bar design)"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "T%037"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18883"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Pro 24 All-in-One QC24251 35W|256 GB SSD, TLC|US Power Cord for 3-pin Adapter|Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera|Integrated Graphics|Windows 11 Pro|Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|23.8\", Non-Touch, FHD, 100Hz|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 1695.81,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BPNY",
+                "vpn": "DTJYR",
+                "upc": "884116473312",
+                "ean": "",
+                "jan": "",
+                "variantCode": "dell-pro-qc24251-aio",
+                "categories": [
+                    {
+                        "categoryName": "Desktops",
+                        "categoryId": "1"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Pro 24 All-in-One QC24251 35W|256 GB SSD, TLC|US Power Cord for 3-pin Adapter|Dell Pro 24 All-in-One QC24251, 35W N-1 CPU, Non-touch, FHD HDR Camera|Integrated Graphics|Windows 11 Pro|Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|23.8\", Non-Touch, FHD, 100Hz|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HLKP",
+                "isValid": true,
+                "modelDescription": "Dell Pro 24 All-in-One (35W) QC24251"
+            },
+            {
+                "productId": "bts001d_qcm1250_us_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001d_qcm1250_us_spl",
+                "brand": "Dell Pro Desktops",
+                "brandId": 1335,
+                "isCarWashBrand": false,
+                "family": "Dell Pro Micro QCM1250",
+                "fgaType": "BTS",
+                "modelId": "QCM1250",
+                "baseSkuClass": "T%007",
+                "chassis": "18891",
+                "pricingChange": 0,
+                "manufacturerPartNumber": "",
+                "title": "Dell Pro Micro QCM1250",
+                "description": "SPL|Dell Pro Micro QCM1250|35W|TPM|i3 14100T|8 GB|256GBSSD|Integrated|NoStand|Win11Pro|WLAN|no vPro",
+                "status": "Active",
+                "approvedStatus": "Active",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_1",
+                                    "title": "Dell Pro Micro QCM1250",
+                                    "value": "Dell Pro Micro QCM1250"
+                                },
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "256 GB SSD, TLC"
+                                },
+                                {
+                                    "key": "m_637",
+                                    "title": "Additional Storage",
+                                    "value": "No Additional Hard Drive"
+                                },
+                                {
+                                    "key": "m_85",
+                                    "title": "Operating System Language Pack",
+                                    "value": "English, French, Spanish, Brazilian Portuguese"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Dell Pro Micro with 35W Processor"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "Power Cord (US) for 180W Adapter"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae wireless card, internal antenna"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Wireless Driver",
+                                    "value": "Wireless Driver, Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_698",
+                                    "title": "Serial Port Adapter",
+                                    "value": "No PCIe add-in-card"
+                                },
+                                {
+                                    "key": "m_495",
+                                    "title": "Optional Port Modules",
+                                    "value": "No Additional Port"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "Dell Wired Keyboard - KB216 - US English - Black"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "Dell Wired Mouse - MS116 Black"
+                                },
+                                {
+                                    "key": "m_200095",
+                                    "title": "External Speakers",
+                                    "value": "No External Speaker"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Dell Pro Micro QCM1250"
+                                },
+                                {
+                                    "key": "m_200013",
+                                    "title": "Operating System Recovery Options",
+                                    "value": "OS-Windows Media Not Included"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "ENERGY STAR",
+                                    "value": "ENERGY STAR Qualified"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation",
+                                    "value": "Documentation"
+                                },
+                                {
+                                    "key": "m_39",
+                                    "title": "System Monitoring Options",
+                                    "value": "Watch Dog SRV"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quick Start Guide"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "EAN/UPC Labels",
+                                    "value": "Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_297",
+                                    "title": "TPM Security",
+                                    "value": "Trusted Platform Module (Discrete TPM Enabled)"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Shipping Material",
+                                    "value": "Shipping Material, MPP Cusion"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Regulatory Label for 65W Adapter"
+                                },
+                                {
+                                    "key": "m_707",
+                                    "title": "Intel Responsiveness Technologies",
+                                    "value": "Driver/APP for IRST"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Label",
+                                    "value": "Intel\u00ae Core\u2122 i3 Processor Label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "Desktop Standard shipment"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security: Identity and Anti-Virus",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_592",
+                                    "title": "Adapter",
+                                    "value": "No Additional Cable"
+                                },
+                                {
+                                    "key": "m_558",
+                                    "title": "Stands and Mounts",
+                                    "value": "No Stand or Mount"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65W AC rugged adapter, 4.5mm barrel, E4"
+                                },
+                                {
+                                    "key": "m_97",
+                                    "title": "TAA",
+                                    "value": "No Federal Order"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "QCM1250_RPL-R_001D/US/BTS"
+                                },
+                                {
+                                    "key": "m_291",
+                                    "title": "Windows AutoPilot",
+                                    "value": "No AutoPilot"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "No vPro\u00ae support"
+                                },
+                                {
+                                    "key": "m_18",
+                                    "title": "Speakers",
+                                    "value": "Internal Speaker"
+                                },
+                                {
+                                    "key": "m_200331",
+                                    "title": "EPEAT",
+                                    "value": "EPEAT Gold with Climate+"
+                                },
+                                {
+                                    "key": "m_705",
+                                    "title": "Hard Drive Cables and Brackets",
+                                    "value": "1st M.2 2230 SSD Extend Bracket & Screw"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_200009",
+                                    "title": "Micro Mounting\u00a0Option",
+                                    "value": "No Stand or Mount"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "<strong>Front:</strong><br>1 USB 3.2 Gen 2 (10 Gbps) Type-C<sup>\u00ae</sup> port\u00a0<br>1 USB 3.2 Gen 1 (5 Gbps) port<br>1 headset (headphone and microphone combo) port</p><p><strong>Rear:</strong><br>1 USB 3.2 Gen 1 (5 Gbps) port with SmartPower On<br>1 USB 3.2 Gen 1 (5 Gbps) port<br>2 USB 2.0 (480 Mbps) ports<br>1 DisplayPort<sup>\u2122</sup> 1.4a (HBR3 support) port for computers shipped with Intel<sup>\u00ae</sup> Core<sup>\u2122</sup> Ultra processors<br>1 DisplayPort<sup>\u2122</sup> 1.4a (HBR2 support) port for computers shipped with Intel<sup>\u00ae</sup> Core<sup>\u2122</sup> 300T, i3, i5 and i7 processors<br>1 HDMI 2.1 port<br>1 RJ45 (10/100/1000 Mbps) Ethernet port<br>1 power-adapter port<br>1 optional module port (HDMI 2.1 FRL/DisplayPort<sup>\u2122</sup> 2.1 (UHBR20)/VGA/USB Type-C<sup>\u00ae</sup> with DisplayPort<sup>\u2122</sup> Alt Mode/2 USB-A 3.2 Gen 2/PS2 and Serial/Serial Module/5G Optical Fiber) for computers shipped with Intel<sup>\u00ae</sup> Core<sup>\u2122</sup> Ultra processors<br>1 optional module port (HDMI 2.1 TMDS/DisplayPort<sup>\u2122</sup> 1.4a (HBR3)/VGA/USB Type-C<sup>\u00ae</sup> with DisplayPort<sup>\u2122</sup> Alt Mode/2 USB-A 3.2 Gen 2/PS2 and Serial/Serial Module/5G Optical Fiber) for computers shipped with Intel<sup>\u00ae</sup> Core<sup>\u2122</sup> 300T, i3, i5 and i7 processors"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 M.2 2230 slot for Wi-Fi and Bluetooth combo card<br>2 M.2 2230/2280 slots for solid-state drive"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "T%007"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18891"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Pro Micro QCM1250|256 GB SSD, TLC|Power Cord (US) for 180W Adapter|Dell Pro Micro with 35W Processor|Windows 11 Pro|Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 1403.22,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BPQB",
+                "vpn": "NYM14",
+                "upc": "884116488279",
+                "ean": "",
+                "jan": "",
+                "variantCode": "dell-pro-qcm1250-micro",
+                "categories": [
+                    {
+                        "categoryName": "Desktops",
+                        "categoryId": "1"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Pro Micro QCM1250|256 GB SSD, TLC|Power Cord (US) for 180W Adapter|Dell Pro Micro with 35W Processor|Windows 11 Pro|Intel\u00ae Core\u2122 i3 14100T (4 cores, up to 4.4GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HLVM",
+                "isValid": true,
+                "modelDescription": "Dell Pro Micro QCM1250"
+            },
+            {
+                "productId": "bts001d_qcs1250_us_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001d_qcs1250_us_spl",
+                "brand": "Dell Pro Desktops",
+                "brandId": 1335,
+                "isCarWashBrand": false,
+                "family": "Dell Pro Slim QCS1250",
+                "fgaType": "BTS",
+                "modelId": "QCS1250",
+                "baseSkuClass": "T%017",
+                "chassis": "18872",
+                "pricingChange": 0,
+                "eolDate": "2025-12-18T15:02:02.512Z",
+                "manufacturerPartNumber": "",
+                "title": "Dell Pro Slim QCS1250",
+                "description": "SPL|Dell Pro Slim QCS1250|180W|TPM|i3-14100|8 GB|256GBSSD|Integrated|NoStand|Win11Pro|NO WLAN|no vPro",
+                "status": "Inactive",
+                "approvedStatus": "Inactive",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "Intel\u00ae Core\u2122 i3-14100 (4 cores, up to 4.7GHz)"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "256 GB SSD, TLC"
+                                },
+                                {
+                                    "key": "m_6",
+                                    "title": "Graphics",
+                                    "value": "Integrated Graphics"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "No Wireless LAN Card"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Wireless Driver",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_85",
+                                    "title": "Operating System Language Pack",
+                                    "value": "English, French, Spanish, Brazilian Portuguese"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Dell Pro Slim chassis with 180W PSU"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "Dell Wired Keyboard - KB216 - US English - Black"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "Dell Wired Mouse - MS116 Black"
+                                },
+                                {
+                                    "key": "m_592",
+                                    "title": "Cables and Dongles",
+                                    "value": "No Additional Cable"
+                                },
+                                {
+                                    "key": "m_558",
+                                    "title": "Stands and Mounts",
+                                    "value": "No Stand or Mount"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Dell Pro Slim QCS1250"
+                                },
+                                {
+                                    "key": "m_200013",
+                                    "title": "Operating System Recovery Options",
+                                    "value": "OS-Windows Media Not Included"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "ENERGY STAR",
+                                    "value": "ENERGY STAR Qualified"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "System Power Cord  (US)"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation",
+                                    "value": "Documentation"
+                                },
+                                {
+                                    "key": "m_39",
+                                    "title": "System Monitoring Options",
+                                    "value": "Watch Dog SRV"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quick Start Quide"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "EAN/UPC Labels",
+                                    "value": "Print on Demand Label"
+                                },
+                                {
+                                    "key": "m_297",
+                                    "title": "TPM Security",
+                                    "value": "Trusted Platform Module (Discrete TPM Enabled)"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Shipping Material",
+                                    "value": "Shipping Material"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "FSJ Reg label for 180W PSU"
+                                },
+                                {
+                                    "key": "m_707",
+                                    "title": "Intel Responsiveness Technologies",
+                                    "value": "Driver/APP for IRST"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Label",
+                                    "value": "Intel\u00ae Core\u2122 i3 Processor Label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "DT BTS/BTP Shipment"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "QCS1250_RPL-R_001D/US/BTS"
+                                },
+                                {
+                                    "key": "m_1",
+                                    "title": "Dell Pro Slim QCS1250",
+                                    "value": "Dell Pro Slim QCS1250"
+                                },
+                                {
+                                    "key": "m_200331",
+                                    "title": "EPEAT",
+                                    "value": "EPEAT Silver with Climate+"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "No vPro\u00ae support"
+                                },
+                                {
+                                    "key": "m_291",
+                                    "title": "Windows AutoPilot",
+                                    "value": "No AutoPilot"
+                                },
+                                {
+                                    "key": "m_16",
+                                    "title": "Optical Drive",
+                                    "value": "No Optical Drive"
+                                },
+                                {
+                                    "key": "m_637",
+                                    "title": "Additional Storage",
+                                    "value": "No Additional Hard Drive"
+                                },
+                                {
+                                    "key": "m_705",
+                                    "title": "Hard Drive Cables and Brackets",
+                                    "value": "No Caddy"
+                                },
+                                {
+                                    "key": "m_597",
+                                    "title": "Optical Software",
+                                    "value": "No CyberLink Media Suite Essentials"
+                                },
+                                {
+                                    "key": "m_18",
+                                    "title": "Speakers",
+                                    "value": "Internal speaker"
+                                },
+                                {
+                                    "key": "m_289",
+                                    "title": "Chassis intrusion switch",
+                                    "value": "No Chassis intrusion switch"
+                                },
+                                {
+                                    "key": "m_583",
+                                    "title": "Add-in Cards",
+                                    "value": "No Additional Add In Cards"
+                                },
+                                {
+                                    "key": "m_13",
+                                    "title": "Network Adapters (NIC)",
+                                    "value": "No Additional Network Card Selected (Integrated NIC included)"
+                                },
+                                {
+                                    "key": "m_97",
+                                    "title": "TAA",
+                                    "value": "No Federal Order"
+                                },
+                                {
+                                    "key": "m_495",
+                                    "title": "Optional Port Modules",
+                                    "value": "No Additional Port"
+                                },
+                                {
+                                    "key": "m_698",
+                                    "title": "Serial Port Adapter",
+                                    "value": "No PCIe add-in-card"
+                                },
+                                {
+                                    "key": "m_200095",
+                                    "title": "Speakers and Soundbars",
+                                    "value": "No External Speaker"
+                                },
+                                {
+                                    "key": "m_52",
+                                    "title": "Additional 3.5\" HDD Storage",
+                                    "value": "No Additional Hard Drive"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security: Identity and Anti-Virus",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "<strong>Front</strong><br>2 USB 2.0 (480 Mbps) ports<br>1 USB 3.2 Gen 1 (5 Gbps) port<br>1 USB 3.2 Gen 1 (5 Gbps) Type-C<sup>\u00ae</sup> port\u00a0<br>1 global headset jack</p><p></p><p><strong>Rear (Computers shipped with an Intel<sup>\u00ae</sup> Core\u2122 300/i3 14100/i5 14500 vPro<sup>\u00ae</sup>/i5 14600 vPro<sup>\u00ae</sup>/i7 14700 vPro<sup>\u00ae</sup> processor)</strong><br>2 USB 2.0 (480 Mbps) ports<br>2 USB 3.2 Gen 1 (5 Gbps) ports<br>1 DisplayPort\u2122 1.4a (HBR2) port<br>1 HDMI 2.1 (TMDS) port<br><span>1 RJ45 (1 Gbps) Ethernet port</span></p><p><br><strong>Rear (Computers shipped with an Intel<sup>\u00ae</sup> Core\u2122 Ultra 5 235 vPro<sup>\u00ae</sup>/245 vPro<sup>\u00ae</sup> or Ultra 7 265 vPro<sup>\u00ae</sup> processor)</strong><br>2 USB 2.0 (480 Mbps) ports<br>2 USB 3.2 Gen 1 (5 Gbps) ports<br>1 DisplayPort\u2122 1.4a (HBR3) port<br>1 HDMI 2.1 (TMDS) port<br><span>1 RJ45 (1 Gbps) Ethernet port</span></p><p><br><strong>Rear (expansion, these are mutually exclusive options):</strong><br>1 VGA port (optional)<br>1 Serial port (optional)<br>2 USB 3.2 Gen 2 (10 Gbps) ports (optional)<br>1 USB 3.2 Gen 2 (10 Gbps) Type-C<sup>\u00ae</sup> with DisplayPort\u2122 Alt Mode port (optional)</p><p><strong>For computers shipped with an Intel<sup>\u00ae</sup> Core\u2122 300/i3 14100/i5 14500 vPro<sup>\u00ae</sup>/i5 14600 vPro<sup>\u00ae</sup>/i7 14700 vPro<sup>\u00ae</sup> processor:</strong>\u00a0<br>1 HDMI 2.1 (TMDS) port (optional)<br>1 DisplayPort\u2122 1.4a (HBR3) port (optional)</p><p><strong>For computers shipped with an Intel<sup>\u00ae</sup> Core\u2122 Ultra 5 235 vPro<sup>\u00ae</sup>/245 vPro<sup>\u00ae</sup> or Ultra 7 265 vPro<sup>\u00ae</sup> processor:</strong>\u00a0<br>1 HDMI 2.1 (FRL) port (optional)<br>1 DisplayPort\u2122 2.1 (UHBR20) port (optional)"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 half-height Gen3 PCIe x16 slot<br>2 half-height Gen3 PCIe x1 slots<br>1 M.2 2230 slot for Wi-Fi and Bluetooth combo card<br>1 M.2 2230/2280 slot for solid state drive<br>1 SATA 3.0 slots for 3.5-inch hard drive<br>1 SATA 3.0 slots for slim optical drive<br>1 security-cable slot (for a Kensington lock)<br>1 padlock ring"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "T%017"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18872"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Pro Slim QCS1250|256 GB SSD, TLC|No Optical Drive|System Power Cord  (US)|Dell Pro Slim chassis with 180W PSU|Integrated Graphics|Windows 11 Pro|Intel\u00ae Core\u2122 i3-14100 (4 cores, up to 4.7GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 1438.47,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BPRH",
+                "vpn": "XN6PJ",
+                "upc": "884116487609",
+                "ean": "",
+                "jan": "",
+                "variantCode": "dell-pro-qcs1250-slim-desktop",
+                "categories": [
+                    {
+                        "categoryName": "Desktops",
+                        "categoryId": "1"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Pro Slim QCS1250|256 GB SSD, TLC|No Optical Drive|System Power Cord  (US)|Dell Pro Slim chassis with 180W PSU|Integrated Graphics|Windows 11 Pro|Intel\u00ae Core\u2122 i3-14100 (4 cores, up to 4.7GHz)|8 GB: 1 x 8 GB, DDR5, up to 4800 MT/s, non-ECC|3Y Basic Onsite Service after remote diagnosis with Hardware-Only Support-Disti SnS",
+                "itemSkuInfo": "998-HLTQ",
+                "isValid": true,
+                "modelDescription": "Dell Pro Slim QCS1250"
+            },
+            {
+                "productId": "bts001ra13250us_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts001ra13250us_spl",
+                "brand": "Dell Pro Rugged Laptops",
+                "brandId": 1337,
+                "isCarWashBrand": false,
+                "family": "Dell Pro Rugged 13 RA13250",
+                "fgaType": "BTS",
+                "modelId": "RA13250",
+                "baseSkuClass": "^%004",
+                "chassis": "18644",
+                "pricingChange": 0,
+                "manufacturerPartNumber": "",
+                "title": "Dell Pro Rugged 13 RA13250",
+                "description": "Dell Pro Rugged 13 RA13250|CORE_ULTRA_5-135U|16GB (-1DIMMS)|512GB SS|1920X1080|W11|3C|13.3in",
+                "status": "Active",
+                "approvedStatus": "Active",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_1",
+                                    "title": "Base",
+                                    "value": "Dell Pro Rugged, RA13250 BTX"
+                                },
+                                {
+                                    "key": "m_146",
+                                    "title": "Processor",
+                                    "value": "Intel\u00ae Core\u2122 Ultra 5 135U (12 cores, up to 4.4 GHz, 15 W)"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "Windows 11 Pro"
+                                },
+                                {
+                                    "key": "m_1002",
+                                    "title": "Microsoft Office",
+                                    "value": "Activate Your Microsoft 365 For A 30 Day Trial"
+                                },
+                                {
+                                    "key": "m_149",
+                                    "title": "Base Options",
+                                    "value": "Intel\u00ae Core\u2122 Ultra 5 135U (12 MB cache, 12 cores, up to 4.40 GHz, 15W), 16 GB memory, Integrated GFX"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "English US Rugged RGB Single Point backlit Copilot key keyboard"
+                                },
+                                {
+                                    "key": "m_200503",
+                                    "title": "Handle",
+                                    "value": "Rigid Handle"
+                                },
+                                {
+                                    "key": "m_289",
+                                    "title": "Chassis intrusion switch",
+                                    "value": "No additional TBT-4/Type-C port"
+                                },
+                                {
+                                    "key": "m_698",
+                                    "title": "Serial Port/PS2 Adapter",
+                                    "value": "Additional rear USB 3.2 Type-A port"
+                                },
+                                {
+                                    "key": "m_291",
+                                    "title": "Windows AutoPilot",
+                                    "value": "No AutoPilot"
+                                },
+                                {
+                                    "key": "m_330",
+                                    "title": "Secured Component Verification Cloud",
+                                    "value": "No Software included (No SCV)"
+                                },
+                                {
+                                    "key": "m_707",
+                                    "title": "Hard Drive Software",
+                                    "value": "Intel Responsiveness Technologies Driver"
+                                },
+                                {
+                                    "key": "m_49",
+                                    "title": "Systems Management",
+                                    "value": "ME Disable - Manageability"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "16GB: LPDDR5x, 6400 MT/s (onboard)"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "512 GB, M.2 2230, PCIe NVMe, SSD"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_7",
+                                    "title": "Driver",
+                                    "value": "Wireless Intel AX211 WLAN Driver"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, MU-MIMO, Bluetooth\u00ae 5.3 wireless card"
+                                },
+                                {
+                                    "key": "m_114",
+                                    "title": "Mobile Broadband",
+                                    "value": "No Mobile Broadband Card"
+                                },
+                                {
+                                    "key": "m_1409",
+                                    "title": "GPS Solutions (Tied)",
+                                    "value": "Dedicated u-blox NEO-M9N GPS Card"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "Display",
+                                    "value": "13.3\", Touch, FHD, WVA, Anti-Glare, 1400 nits, Passive Pen Support, FHD IR Cam"
+                                },
+                                {
+                                    "key": "m_379",
+                                    "title": "Camera",
+                                    "value": "FHD HDR IR Camera + Microphone, Touch, WLAN/WWAN/GPS antenna, docking POGO connector with Passthru"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "Primary 3 Cell 53.5 Whr ExpressCharge Capable Battery"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "-1"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65W AC adapter, USB Type-C"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Full Security: Fingerprint Reader, Contacted and Contactless NFC Smartcard Reader, Express card"
+                                },
+                                {
+                                    "key": "m_1014",
+                                    "title": "Home and Small Business Security: Identity and Anti-Virus",
+                                    "value": "None"
+                                },
+                                {
+                                    "key": "m_200013",
+                                    "title": "Operating System Recovery Options",
+                                    "value": "OS-Windows Media Not Included"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Cable",
+                                    "value": "E4 C5 black Power Cord 1M, US"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quick setup guide, world wide"
+                                },
+                                {
+                                    "key": "m_113",
+                                    "title": "Second Battery",
+                                    "value": "No battery dummy cover & second battery"
+                                },
+                                {
+                                    "key": "m_50",
+                                    "title": "Diagnostic CD / Diskette",
+                                    "value": "No Resource USB Media"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Service and Support Guide MUI for DAO (English, French, Multi)"
+                                },
+                                {
+                                    "key": "m_122",
+                                    "title": "E-Star",
+                                    "value": "ENERGY STAR Qualified"
+                                },
+                                {
+                                    "key": "m_1003",
+                                    "title": "Non-Microsoft Application Software",
+                                    "value": "Dell Additional Software"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "Direct Shipment, Dell Pro Rugged 13 RA13250"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation",
+                                    "value": "Smart Selection Shipment"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Support Tech Sheet and Powercord",
+                                    "value": "L10/US tariff - UPC(DAO)/EAN(APJ,EMEA) POD LBL"
+                                },
+                                {
+                                    "key": "m_200331",
+                                    "title": "EPEAT",
+                                    "value": "EPEAT Gold with Climate+"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "13_Rugged_2HFY25_001/US/BTS"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Branding",
+                                    "value": "Core Ultra 5 non-vPro CPU Label, Gen 14th"
+                                },
+                                {
+                                    "key": "m_85",
+                                    "title": "Operating System Language Pack",
+                                    "value": "English, French, Spanish, Brazilian Portuguese"
+                                },
+                                {
+                                    "key": "m_141",
+                                    "title": "ICPS",
+                                    "value": "No Intel\u00ae Connectivity Performance Suite"
+                                },
+                                {
+                                    "key": "m_739",
+                                    "title": "Hazardous Locations Certification",
+                                    "value": "Hazardous Locations Certification"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "3 Years Ltd Hware Warranty: Mail-in; Customer supplies box, Dell pays shipping-Disti SNS"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "1 headset (headphone and microphone combo) port<br>1 USB 3.2 Gen 1 (5 Gbps) port<br>1 USB 3.2 Gen 1 port with PowerShare<br>1 Thunderbolt\u2122 4/USB 4 Type-C<sup>\u00ae</sup> with Power Delivery<br>1 Thunderbolt\u2122 4/USB 4 2 Type-C<sup>\u00ae</sup> with Power Delivery port (optional)<br>1 HDMI 2.1 port<br>1 RS-232 Serial port<br>1 RJ45 (1 Gbps) Ethernet port<br>1 Optional I/O bay (Choose from: RJ45 (1 Gbps) Ethernet port/USB 3.2 Type-A port/Serial port/Fischer USB port)"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 microSD-card slot<br>1 nanoSIM-card slot (for computers shipped with WWAN support)<br>1 wedge-shaped lock slot<br>1 Smart-card reader slot/Express-card reader slot/Smart-card reader + Express-card reader slot<br><br><br><quillbot-extension-portal></quillbot-extension-portal>"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "^%004"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "18644"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Pro Rugged, RA13250 BTX|512 GB, M.2 2230, PCIe NVMe, SSD|E4 C5 black Power Cord 1M, US|Windows 11 Pro|Intel\u00ae Core\u2122 Ultra 5 135U (12 cores, up to 4.4 GHz, 15 W)|16GB: LPDDR5x, 6400 MT/s (onboard)|13.3\", Touch, FHD, WVA, Anti-Glare, 1400 nits, Passive Pen Support, FHD IR Cam|3 Years Ltd Hware Warranty: Mail-in; Customer supplies box, Dell pays shipping-Disti SNS"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 6892.09,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BNNK",
+                "vpn": "5JCTG",
+                "upc": "884116481331",
+                "ean": "",
+                "jan": "",
+                "variantCode": "dell-pro-ra13250-rugged-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Laptops",
+                        "categoryId": "2"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Pro Rugged, RA13250 BTX|512 GB, M.2 2230, PCIe NVMe, SSD|E4 C5 black Power Cord 1M, US|Windows 11 Pro|Intel\u00ae Core\u2122 Ultra 5 135U (12 cores, up to 4.4 GHz, 15 W)|16GB: LPDDR5x, 6400 MT/s (onboard)|13.3\", Touch, FHD, WVA, Anti-Glare, 1400 nits, Passive Pen Support, FHD IR Cam|3 Years Ltd Hware Warranty: Mail-in; Customer supplies box, Dell pays shipping-Disti SNS",
+                "itemSkuInfo": "998-HGDR",
+                "isValid": true,
+                "modelDescription": "Dell Pro Rugged 13 RA13250"
+            },
+            {
+                "productId": "bts002_cc11260_us_spl",
+                "productType": 1,
+                "country": "US",
+                "language": "en",
+                "orderCode": "bts002_cc11260_us_spl",
+                "brand": "Chromebook",
+                "brandId": 1177,
+                "isCarWashBrand": false,
+                "family": "Dell Chromebook 11",
+                "fgaType": "BTS",
+                "modelId": "CC11260",
+                "baseSkuClass": "P/019",
+                "chassis": "19429",
+                "pricingChange": 0,
+                "manufacturerPartNumber": "",
+                "title": "Dell Chromebook 11",
+                "description": "SPL|Dell Chromebook 11 (CC11260)|CS|11.6\"HDNon-Touch|Camera|Mic|3Cell|65W|Backlit kb|NO OS",
+                "status": "Active",
+                "approvedStatus": "Active",
+                "techSpecs": {
+                    "sections": [
+                        {
+                            "sectionName": "TechSpec",
+                            "sectionId": "TechSpec",
+                            "specifications": [
+                                {
+                                    "key": "m_1",
+                                    "title": "Base",
+                                    "value": "Dell Chromebook 11 CC11260"
+                                },
+                                {
+                                    "key": "m_149",
+                                    "title": "Base Options",
+                                    "value": "Intel\u00ae Processor N150 (6 MB cache, 4 cores, 4 threads, up to 3.60 GHz, 6W), 4GB, 64GB, 2 USBC"
+                                },
+                                {
+                                    "key": "m_3",
+                                    "title": "Memory",
+                                    "value": "4 GB: LPDDR5, 4800 MT/s (onboard)"
+                                },
+                                {
+                                    "key": "m_8",
+                                    "title": "Storage",
+                                    "value": "64 GB eMMC, on-board"
+                                },
+                                {
+                                    "key": "m_114",
+                                    "title": "Mobile Broadband",
+                                    "value": "No Mobile Broadband Card"
+                                },
+                                {
+                                    "key": "m_11",
+                                    "title": "Operating System",
+                                    "value": "ChromeOS"
+                                },
+                                {
+                                    "key": "m_760",
+                                    "title": "LCD",
+                                    "value": "Laptop, 11.6\", Non-Touch, HD(1366x768) TN, Anti-Glare, Dual Mic, HD Camera, WLAN"
+                                },
+                                {
+                                    "key": "m_4",
+                                    "title": "Keyboard",
+                                    "value": "English US non-backlit keyboard"
+                                },
+                                {
+                                    "key": "m_12",
+                                    "title": "Mouse",
+                                    "value": "No Mouse"
+                                },
+                                {
+                                    "key": "m_19",
+                                    "title": "Wireless",
+                                    "value": "Intel\u00ae Wi-Fi 6E AX211, 2x2, 802.11ax, Bluetooth\u00ae wireless card"
+                                },
+                                {
+                                    "key": "m_112",
+                                    "title": "Primary Battery",
+                                    "value": "3-cell, 45 Wh"
+                                },
+                                {
+                                    "key": "m_112_1",
+                                    "title": "Battery Power",
+                                    "value": "45"
+                                },
+                                {
+                                    "key": "m_1015",
+                                    "title": "Power Supply",
+                                    "value": "65W AC adapter, USB Type-C"
+                                },
+                                {
+                                    "key": "m_55",
+                                    "title": "PalmRest",
+                                    "value": "Palmrest, 2 USB C, Clamshell"
+                                },
+                                {
+                                    "key": "m_20",
+                                    "title": "Power Cord",
+                                    "value": "E4 Power Cord 1M for US"
+                                },
+                                {
+                                    "key": "m_60",
+                                    "title": "Placemat",
+                                    "value": "Quickstart Guide"
+                                },
+                                {
+                                    "key": "m_21",
+                                    "title": "Documentation/Disks",
+                                    "value": "Documentation"
+                                },
+                                {
+                                    "key": "m_572",
+                                    "title": "FGA Module",
+                                    "value": "CC11260_TWL_002/US/BTS"
+                                },
+                                {
+                                    "key": "m_676",
+                                    "title": "Label",
+                                    "value": "Laptop, TNR Camera, 2 USBC, NonTouch"
+                                },
+                                {
+                                    "key": "m_465",
+                                    "title": "Packaging",
+                                    "value": "Min Packaging, 65W, Dell Chromenbook 11 CC11260"
+                                },
+                                {
+                                    "key": "m_749",
+                                    "title": "Processor Branding",
+                                    "value": "Intel\u00ae Processor N150 CPU Label"
+                                },
+                                {
+                                    "key": "m_200080",
+                                    "title": "Transportation from ODM to region",
+                                    "value": "Smart Selection Shipment, Chromebook (VS)"
+                                },
+                                {
+                                    "key": "m_292",
+                                    "title": "Packaging Label",
+                                    "value": "POD Label, 100% tie to L10 BTS & BTP"
+                                },
+                                {
+                                    "key": "m_116",
+                                    "title": "Chassis Options",
+                                    "value": "Bottom Door, Wlan, Clamshell"
+                                },
+                                {
+                                    "key": "m_29",
+                                    "title": "Standard Hardware Support Service",
+                                    "value": "Mail In Svc 15 Months (Disti SNS), 15 Month(s)"
+                                },
+                                {
+                                    "key": "m_30",
+                                    "title": "Hardware Support Services Upgrades",
+                                    "value": "Mail In Service No Warranty Upgrade-Disti SNS, 15 Month(s)"
+                                },
+                                {
+                                    "key": "m_383",
+                                    "title": "Partner Operations Support",
+                                    "value": "Partner Operations Support"
+                                },
+                                {
+                                    "key": "m_ports",
+                                    "title": "Ports",
+                                    "value": "2 USB 3.2 Gen 1 (5 Gbps) Type-C<sup>\u00ae</sup> with DisplayPort Alt Mode ports<br>1 USB 3.2 Gen 1 (5 Gbps) Type-A port<br>1 Global headset jack"
+                                },
+                                {
+                                    "key": "m_slots",
+                                    "title": "Slots",
+                                    "value": "1 Wedge-shaped lock slot"
+                                },
+                                {
+                                    "title": "Base Sku Class",
+                                    "value": "P/019"
+                                },
+                                {
+                                    "title": "Chassis",
+                                    "value": "19429"
+                                },
+                                {
+                                    "title": "Long Description",
+                                    "value": "Dell Chromebook 11 CC11260|64 GB eMMC, on-board|E4 Power Cord 1M for US|Bottom Door, Wlan, Clamshell|ChromeOS|4 GB: LPDDR5, 4800 MT/s (onboard)|Laptop, 11.6\", Non-Touch, HD(1366x768) TN, Anti-Glare, Dual Mic, HD Camera, WLAN|Mail In Service No Warranty Upgrade-Disti SNS, 15 Month(s)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "price": {
+                    "manufacturersSuggestedRetailPrice": 617.36,
+                    "primaryCurrency": "USD"
+                },
+                "sku": "210-BSQY",
+                "vpn": "X0YHW",
+                "upc": "884116672692",
+                "ean": "",
+                "jan": "",
+                "variantCode": "chromebook-cc11260-2-in-1-laptop",
+                "categories": [
+                    {
+                        "categoryName": "Cloud Client Computing",
+                        "categoryId": "104"
+                    }
+                ],
+                "isPublished": true,
+                "containsVpn": true,
+                "canPublishNow": false,
+                "canUnpublishNow": true,
+                "canUnpublishLater": true,
+                "canPublishLater": false,
+                "canEditPublishState": true,
+                "longDescription": "Dell Chromebook 11 CC11260|64 GB eMMC, on-board|E4 Power Cord 1M for US|Bottom Door, Wlan, Clamshell|ChromeOS|4 GB: LPDDR5, 4800 MT/s (onboard)|Laptop, 11.6\", Non-Touch, HD(1366x768) TN, Anti-Glare, Dual Mic, HD Camera, WLAN|Mail In Service No Warranty Upgrade-Disti SNS, 15 Month(s)",
+                "itemSkuInfo": "998-HVCR",
+                "isValid": true,
+                "modelDescription": "Dell Chromebook 11 (CC11260)"
+            }
+        ]
+    }
+}
