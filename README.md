@@ -1,6 +1,8 @@
 # Dell Standard Price List Lookup
 
-A local web app for searching the Dell Standard Price List (SPL) and generating quote strings from product data.
+A web app for searching the Dell Standard Price List (SPL) and generating quote strings from product data.
+
+**Live at: https://dell-price-list.onrender.com/**
 
 ## What it does
 
