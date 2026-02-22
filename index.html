@@ -18,6 +18,11 @@
         .search-form button:disabled { background: #999; cursor: not-allowed; }
 
         .error { color: #c0392b; margin-bottom: 20px; }
+        .error-box { background: #fdf0ef; border: 1px solid #e8c4c0; border-radius: 8px; padding: 16px 20px; margin-bottom: 20px; }
+        .error-box h3 { color: #c0392b; margin-bottom: 8px; font-size: 15px; }
+        .error-box p { color: #555; font-size: 13px; margin-bottom: 4px; }
+        .error-box .error-detail { font-family: monospace; font-size: 12px; color: #888; background: #fff; padding: 8px 10px; border-radius: 4px; margin-top: 8px; white-space: pre-wrap; word-break: break-word; max-height: 200px; overflow-y: auto; }
+        .error-box .error-hint { color: #856404; background: #fff3cd; border: 1px solid #ffeeba; padding: 8px 12px; border-radius: 4px; margin-top: 10px; font-size: 13px; }
         .result-count { color: #666; margin-bottom: 15px; font-size: 14px; }
         .loading { color: #666; font-style: italic; margin-bottom: 20px; }
 
@@ -143,15 +148,76 @@
         return (product.categories || []).map(c => c.categoryName || "").filter(Boolean).join(", ");
     }
 
+    // --- Error formatting ---
+
+    function renderErrorBox(err) {
+        const isCORS = err.name === "TypeError" && (
+            err.message.includes("Failed to fetch") ||
+            err.message.includes("NetworkError") ||
+            err.message.includes("Network request failed") ||
+            err.message.includes("Load failed")
+        );
+
+        let html = `<div class="error-box">`;
+        html += `<h3>${escapeHtml(err.headline || "Request Failed")}</h3>`;
+
+        if (err.url) html += `<p><strong>URL:</strong> ${escapeHtml(err.url)}</p>`;
+        if (err.method) html += `<p><strong>Method:</strong> ${escapeHtml(err.method)}</p>`;
+        if (err.status) html += `<p><strong>Status:</strong> ${escapeHtml(String(err.status))}</p>`;
+        if (err.statusText) html += `<p><strong>Status Text:</strong> ${escapeHtml(err.statusText)}</p>`;
+
+        html += `<p><strong>Error Type:</strong> ${escapeHtml(err.name || "Unknown")}</p>`;
+        html += `<p><strong>Message:</strong> ${escapeHtml(err.message)}</p>`;
+
+        if (err.responseBody) {
+            html += `<div class="error-detail">${escapeHtml(err.responseBody)}</div>`;
+        }
+
+        if (isCORS) {
+            html += `<div class="error-hint"><strong>Likely cause: CORS.</strong> The Dell API at channel.dell.com is not returning Access-Control-Allow-Origin headers for this origin. This page must be served from a domain the API allows, or you need a CORS proxy.</div>`;
+        } else if (err.status === 403) {
+            html += `<div class="error-hint"><strong>403 Forbidden.</strong> The API rejected the request. This could be a CORS preflight failure, IP restriction, or authentication issue.</div>`;
+        } else if (err.status === 0 || err.status === undefined && !err.responseBody) {
+            html += `<div class="error-hint"><strong>No response received.</strong> This is usually a CORS block, a network error, or the API being unreachable from this origin.</div>`;
+        }
+
+        html += `</div>`;
+        return html;
+    }
+
     // --- API calls ---
+
+    async function apiFetch(url, options = {}) {
+        const method = options.method || "GET";
+        let resp;
+        try {
+            resp = await fetch(url, options);
+        } catch (err) {
+            err.headline = `Network error calling ${method} ${url}`;
+            err.url = url;
+            err.method = method;
+            throw err;
+        }
+        if (!resp.ok) {
+            let body = "";
+            try { body = await resp.text(); } catch (_) {}
+            const err = new Error(`HTTP ${resp.status} ${resp.statusText}`);
+            err.headline = `API returned ${resp.status}`;
+            err.url = url;
+            err.method = method;
+            err.status = resp.status;
+            err.statusText = resp.statusText;
+            err.responseBody = body;
+            throw err;
+        }
+        return resp.json();
+    }
 
     async function typeaheadLookup(query) {
         const url = `${API}/typeahead?query=${encodeURIComponent(query)}`;
-        const resp = await fetch(url, {
+        const data = await apiFetch(url, {
             headers: { "Content-Type": "application/json" },
         });
-        if (!resp.ok) throw new Error(`Typeahead request failed: ${resp.status}`);
-        const data = await resp.json();
 
         const byType = {};
         for (const result of (data.searchResults || [])) {
@@ -173,39 +239,33 @@
 
     async function filterProducts(query, productIdsWithType) {
         const url = `${API}/filtersrefiners/filter-products`;
-        const payload = {
-            sortBy: [],
-            filters: [],
-            search: query,
-            productIdsWithType: productIdsWithType,
-            page: { itemsPerPage: 10, pageNumber: 0 },
-        };
-        const resp = await fetch(url, {
+        return apiFetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(payload),
+            body: JSON.stringify({
+                sortBy: [],
+                filters: [],
+                search: query,
+                productIdsWithType: productIdsWithType,
+                page: { itemsPerPage: 10, pageNumber: 0 },
+            }),
         });
-        if (!resp.ok) throw new Error(`Filter-products request failed: ${resp.status}`);
-        return resp.json();
     }
 
     async function fetchProductById(productId, productType) {
         productType = productType ?? 1;
         const url = `${API}/filtersrefiners/filter-products`;
-        const payload = {
-            sortBy: [],
-            filters: [],
-            search: "",
-            productIdsWithType: [{ productIds: [productId], type: productType }],
-            page: { itemsPerPage: 10, pageNumber: 0 },
-        };
-        const resp = await fetch(url, {
+        return apiFetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify(payload),
+            body: JSON.stringify({
+                sortBy: [],
+                filters: [],
+                search: "",
+                productIdsWithType: [{ productIds: [productId], type: productType }],
+                page: { itemsPerPage: 10, pageNumber: 0 },
+            }),
         });
-        if (!resp.ok) throw new Error(`Product fetch failed: ${resp.status}`);
-        return resp.json();
     }
 
     // --- Search ---
@@ -248,7 +308,7 @@
             tableEl.innerHTML = renderResultsTable(products);
         } catch (err) {
             loadingEl.innerHTML = "";
-            errorEl.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;
+            errorEl.innerHTML = renderErrorBox(err);
         } finally {
             document.getElementById("search-btn").disabled = false;
         }
@@ -319,7 +379,7 @@
 
             detailView.innerHTML = renderDetail(products[0]);
         } catch (err) {
-            detailView.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;
+            detailView.innerHTML = `<a class="back" onclick="showSearch()">&larr; Back to results</a>` + renderErrorBox(err);
         }
     }
 
